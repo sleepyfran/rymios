@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C90E4DB92347D7710034F33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DB82347D7710034F33E /* AppDelegate.swift */; };
+		C90E4DBB2347D7710034F33E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DBA2347D7710034F33E /* SceneDelegate.swift */; };
+		C90E4DBD2347D7710034F33E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DBC2347D7710034F33E /* ContentView.swift */; };
+		C90E4DBF2347D7720034F33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90E4DBE2347D7720034F33E /* Assets.xcassets */; };
+		C90E4DC22347D7720034F33E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90E4DC12347D7720034F33E /* Preview Assets.xcassets */; };
+		C90E4DC52347D7720034F33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90E4DC32347D7720034F33E /* LaunchScreen.storyboard */; };
+		C90E4DD02347D7720034F33E /* rymiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DCF2347D7720034F33E /* rymiosTests.swift */; };
+		C90E4DDB2347D7720034F33E /* rymiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DDA2347D7720034F33E /* rymiosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C90E4DCC2347D7720034F33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E4DAD2347D7710034F33E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90E4DB42347D7710034F33E;
+			remoteInfo = rymios;
+		};
+		C90E4DD72347D7720034F33E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90E4DAD2347D7710034F33E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90E4DB42347D7710034F33E;
+			remoteInfo = rymios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C90E4DB52347D7710034F33E /* rymios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rymios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90E4DB82347D7710034F33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C90E4DBA2347D7710034F33E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C90E4DBC2347D7710034F33E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C90E4DBE2347D7720034F33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C90E4DC12347D7720034F33E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C90E4DC42347D7720034F33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C90E4DC62347D7720034F33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90E4DCB2347D7720034F33E /* rymiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rymiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90E4DCF2347D7720034F33E /* rymiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rymiosTests.swift; sourceTree = "<group>"; };
+		C90E4DD12347D7720034F33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90E4DD62347D7720034F33E /* rymiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rymiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90E4DDA2347D7720034F33E /* rymiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rymiosUITests.swift; sourceTree = "<group>"; };
+		C90E4DDC2347D7720034F33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90E4DB22347D7710034F33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90E4DC82347D7720034F33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90E4DD32347D7720034F33E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90E4DAC2347D7710034F33E = {
+			isa = PBXGroup;
+			children = (
+				C90E4DB72347D7710034F33E /* rymios */,
+				C90E4DCE2347D7720034F33E /* rymiosTests */,
+				C90E4DD92347D7720034F33E /* rymiosUITests */,
+				C90E4DB62347D7710034F33E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C90E4DB62347D7710034F33E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90E4DB52347D7710034F33E /* rymios.app */,
+				C90E4DCB2347D7720034F33E /* rymiosTests.xctest */,
+				C90E4DD62347D7720034F33E /* rymiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90E4DB72347D7710034F33E /* rymios */ = {
+			isa = PBXGroup;
+			children = (
+				C90E4DB82347D7710034F33E /* AppDelegate.swift */,
+				C90E4DBA2347D7710034F33E /* SceneDelegate.swift */,
+				C90E4DBC2347D7710034F33E /* ContentView.swift */,
+				C90E4DBE2347D7720034F33E /* Assets.xcassets */,
+				C90E4DC32347D7720034F33E /* LaunchScreen.storyboard */,
+				C90E4DC62347D7720034F33E /* Info.plist */,
+				C90E4DC02347D7720034F33E /* Preview Content */,
+			);
+			path = rymios;
+			sourceTree = "<group>";
+		};
+		C90E4DC02347D7720034F33E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C90E4DC12347D7720034F33E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C90E4DCE2347D7720034F33E /* rymiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C90E4DCF2347D7720034F33E /* rymiosTests.swift */,
+				C90E4DD12347D7720034F33E /* Info.plist */,
+			);
+			path = rymiosTests;
+			sourceTree = "<group>";
+		};
+		C90E4DD92347D7720034F33E /* rymiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C90E4DDA2347D7720034F33E /* rymiosUITests.swift */,
+				C90E4DDC2347D7720034F33E /* Info.plist */,
+			);
+			path = rymiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90E4DB42347D7710034F33E /* rymios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90E4DDF2347D7720034F33E /* Build configuration list for PBXNativeTarget "rymios" */;
+			buildPhases = (
+				C90E4DB12347D7710034F33E /* Sources */,
+				C90E4DB22347D7710034F33E /* Frameworks */,
+				C90E4DB32347D7710034F33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rymios;
+			productName = rymios;
+			productReference = C90E4DB52347D7710034F33E /* rymios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C90E4DCA2347D7720034F33E /* rymiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90E4DE22347D7720034F33E /* Build configuration list for PBXNativeTarget "rymiosTests" */;
+			buildPhases = (
+				C90E4DC72347D7720034F33E /* Sources */,
+				C90E4DC82347D7720034F33E /* Frameworks */,
+				C90E4DC92347D7720034F33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90E4DCD2347D7720034F33E /* PBXTargetDependency */,
+			);
+			name = rymiosTests;
+			productName = rymiosTests;
+			productReference = C90E4DCB2347D7720034F33E /* rymiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C90E4DD52347D7720034F33E /* rymiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90E4DE52347D7720034F33E /* Build configuration list for PBXNativeTarget "rymiosUITests" */;
+			buildPhases = (
+				C90E4DD22347D7720034F33E /* Sources */,
+				C90E4DD32347D7720034F33E /* Frameworks */,
+				C90E4DD42347D7720034F33E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90E4DD82347D7720034F33E /* PBXTargetDependency */,
+			);
+			name = rymiosUITests;
+			productName = rymiosUITests;
+			productReference = C90E4DD62347D7720034F33E /* rymiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90E4DAD2347D7710034F33E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Fran González";
+				TargetAttributes = {
+					C90E4DB42347D7710034F33E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					C90E4DCA2347D7720034F33E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C90E4DB42347D7710034F33E;
+					};
+					C90E4DD52347D7720034F33E = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = C90E4DB42347D7710034F33E;
+					};
+				};
+			};
+			buildConfigurationList = C90E4DB02347D7710034F33E /* Build configuration list for PBXProject "rymios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90E4DAC2347D7710034F33E;
+			productRefGroup = C90E4DB62347D7710034F33E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90E4DB42347D7710034F33E /* rymios */,
+				C90E4DCA2347D7720034F33E /* rymiosTests */,
+				C90E4DD52347D7720034F33E /* rymiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C90E4DB32347D7710034F33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90E4DC52347D7720034F33E /* LaunchScreen.storyboard in Resources */,
+				C90E4DC22347D7720034F33E /* Preview Assets.xcassets in Resources */,
+				C90E4DBF2347D7720034F33E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90E4DC92347D7720034F33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90E4DD42347D7720034F33E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90E4DB12347D7710034F33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90E4DB92347D7710034F33E /* AppDelegate.swift in Sources */,
+				C90E4DBB2347D7710034F33E /* SceneDelegate.swift in Sources */,
+				C90E4DBD2347D7710034F33E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90E4DC72347D7720034F33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90E4DD02347D7720034F33E /* rymiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90E4DD22347D7720034F33E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90E4DDB2347D7720034F33E /* rymiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90E4DCD2347D7720034F33E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90E4DB42347D7710034F33E /* rymios */;
+			targetProxy = C90E4DCC2347D7720034F33E /* PBXContainerItemProxy */;
+		};
+		C90E4DD82347D7720034F33E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90E4DB42347D7710034F33E /* rymios */;
+			targetProxy = C90E4DD72347D7720034F33E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C90E4DC32347D7720034F33E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90E4DC42347D7720034F33E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90E4DDD2347D7720034F33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C90E4DDE2347D7720034F33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C90E4DE02347D7720034F33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"rymios/Preview Content\"";
+				DEVELOPMENT_TEAM = 399Y562TGG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = rymios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepyfran.rymios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C90E4DE12347D7720034F33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"rymios/Preview Content\"";
+				DEVELOPMENT_TEAM = 399Y562TGG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = rymios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepyfran.rymios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C90E4DE32347D7720034F33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 399Y562TGG;
+				INFOPLIST_FILE = rymiosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepyfran.rymiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rymios.app/rymios";
+			};
+			name = Debug;
+		};
+		C90E4DE42347D7720034F33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 399Y562TGG;
+				INFOPLIST_FILE = rymiosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepyfran.rymiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rymios.app/rymios";
+			};
+			name = Release;
+		};
+		C90E4DE62347D7720034F33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 399Y562TGG;
+				INFOPLIST_FILE = rymiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepyfran.rymiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rymios;
+			};
+			name = Debug;
+		};
+		C90E4DE72347D7720034F33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 399Y562TGG;
+				INFOPLIST_FILE = rymiosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.sleepyfran.rymiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rymios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90E4DB02347D7710034F33E /* Build configuration list for PBXProject "rymios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90E4DDD2347D7720034F33E /* Debug */,
+				C90E4DDE2347D7720034F33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90E4DDF2347D7720034F33E /* Build configuration list for PBXNativeTarget "rymios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90E4DE02347D7720034F33E /* Debug */,
+				C90E4DE12347D7720034F33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90E4DE22347D7720034F33E /* Build configuration list for PBXNativeTarget "rymiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90E4DE32347D7720034F33E /* Debug */,
+				C90E4DE42347D7720034F33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90E4DE52347D7720034F33E /* Build configuration list for PBXNativeTarget "rymiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90E4DE62347D7720034F33E /* Debug */,
+				C90E4DE72347D7720034F33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90E4DAD2347D7710034F33E /* Project object */;
+}
