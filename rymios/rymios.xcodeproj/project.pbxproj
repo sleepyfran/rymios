@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		C90E4DB92347D7710034F33E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DB82347D7710034F33E /* AppDelegate.swift */; };
 		C90E4DBB2347D7710034F33E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DBA2347D7710034F33E /* SceneDelegate.swift */; };
-		C90E4DBD2347D7710034F33E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DBC2347D7710034F33E /* ContentView.swift */; };
 		C90E4DBF2347D7720034F33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90E4DBE2347D7720034F33E /* Assets.xcassets */; };
 		C90E4DC22347D7720034F33E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90E4DC12347D7720034F33E /* Preview Assets.xcassets */; };
 		C90E4DC52347D7720034F33E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90E4DC32347D7720034F33E /* LaunchScreen.storyboard */; };
 		C90E4DD02347D7720034F33E /* rymiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DCF2347D7720034F33E /* rymiosTests.swift */; };
 		C90E4DDB2347D7720034F33E /* rymiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90E4DDA2347D7720034F33E /* rymiosUITests.swift */; };
+		C9DE1E5C234A675F008B0FA2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DE1E5B234A675F008B0FA2 /* Home.swift */; };
+		C9F77CFC234A6B8B00953D53 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77CFB234A6B8B00953D53 /* TestData.swift */; };
+		C9F77CFE234A6C8A00953D53 /* UserActionsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77CFD234A6C8A00953D53 /* UserActionsProtocol.swift */; };
+		C9F77D00234A701000953D53 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77CFF234A701000953D53 /* User.swift */; };
+		C9F77D02234A70A500953D53 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77D01234A70A500953D53 /* Gender.swift */; };
+		C9F77D04234A70E900953D53 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77D03234A70E900953D53 /* LoginUser.swift */; };
+		C9F77D07234A723C00953D53 /* UserActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77D06234A723C00953D53 /* UserActions.swift */; };
+		C9F77D0A234A7DE700953D53 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77D09234A7DE700953D53 /* Profile.swift */; };
+		C9F77D0C234A7EDB00953D53 /* LoggedInProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77D0B234A7EDB00953D53 /* LoggedInProfile.swift */; };
+		C9F77D0E234A7F0D00953D53 /* NotLoggedInProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77D0D234A7F0D00953D53 /* NotLoggedInProfile.swift */; };
+		C9F77D12234A990D00953D53 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F77D11234A990D00953D53 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,6 @@
 		C90E4DB52347D7710034F33E /* rymios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rymios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90E4DB82347D7710034F33E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C90E4DBA2347D7710034F33E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C90E4DBC2347D7710034F33E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C90E4DBE2347D7720034F33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90E4DC12347D7720034F33E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C90E4DC42347D7720034F33E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		C90E4DD62347D7720034F33E /* rymiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rymiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90E4DDA2347D7720034F33E /* rymiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rymiosUITests.swift; sourceTree = "<group>"; };
 		C90E4DDC2347D7720034F33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DE1E5B234A675F008B0FA2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C9F77CFB234A6B8B00953D53 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		C9F77CFD234A6C8A00953D53 /* UserActionsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionsProtocol.swift; sourceTree = "<group>"; };
+		C9F77CFF234A701000953D53 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C9F77D01234A70A500953D53 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		C9F77D03234A70E900953D53 /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		C9F77D06234A723C00953D53 /* UserActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActions.swift; sourceTree = "<group>"; };
+		C9F77D09234A7DE700953D53 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C9F77D0B234A7EDB00953D53 /* LoggedInProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInProfile.swift; sourceTree = "<group>"; };
+		C9F77D0D234A7F0D00953D53 /* NotLoggedInProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedInProfile.swift; sourceTree = "<group>"; };
+		C9F77D11234A990D00953D53 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,12 @@
 		C90E4DB72347D7710034F33E /* rymios */ = {
 			isa = PBXGroup;
 			children = (
+				C9DE1E57234A65C6008B0FA2 /* Api */,
+				C9DE1E58234A6632008B0FA2 /* Actions */,
+				C9DE1E5A234A663E008B0FA2 /* Views */,
+				C9DE1E59234A6637008B0FA2 /* Models */,
+				C9F77CFA234A6B7900953D53 /* Resources */,
 				C90E4DB82347D7710034F33E /* AppDelegate.swift */,
-				C90E4DBA2347D7710034F33E /* SceneDelegate.swift */,
-				C90E4DBC2347D7710034F33E /* ContentView.swift */,
 				C90E4DBE2347D7720034F33E /* Assets.xcassets */,
 				C90E4DC32347D7720034F33E /* LaunchScreen.storyboard */,
 				C90E4DC62347D7720034F33E /* Info.plist */,
@@ -134,6 +157,77 @@
 				C90E4DDC2347D7720034F33E /* Info.plist */,
 			);
 			path = rymiosUITests;
+			sourceTree = "<group>";
+		};
+		C9DE1E57234A65C6008B0FA2 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		C9DE1E58234A6632008B0FA2 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				C9F77D05234A722500953D53 /* Protocols */,
+				C9F77D06234A723C00953D53 /* UserActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		C9DE1E59234A6637008B0FA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9F77CFF234A701000953D53 /* User.swift */,
+				C9F77D01234A70A500953D53 /* Gender.swift */,
+				C9F77D03234A70E900953D53 /* LoginUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9DE1E5A234A663E008B0FA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9F77D08234A7DDA00953D53 /* Profile */,
+				C9DE1E5D234A678E008B0FA2 /* Home */,
+				C90E4DBA2347D7710034F33E /* SceneDelegate.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9DE1E5D234A678E008B0FA2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE1E5B234A675F008B0FA2 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C9F77CFA234A6B7900953D53 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9F77CFB234A6B8B00953D53 /* TestData.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9F77D05234A722500953D53 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C9F77CFD234A6C8A00953D53 /* UserActionsProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C9F77D08234A7DDA00953D53 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C9F77D09234A7DE700953D53 /* Profile.swift */,
+				C9F77D0B234A7EDB00953D53 /* LoggedInProfile.swift */,
+				C9F77D0D234A7F0D00953D53 /* NotLoggedInProfile.swift */,
+				C9F77D11234A990D00953D53 /* Login.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +362,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C90E4DB92347D7710034F33E /* AppDelegate.swift in Sources */,
+				C9F77D0A234A7DE700953D53 /* Profile.swift in Sources */,
+				C9F77D12234A990D00953D53 /* Login.swift in Sources */,
+				C9F77CFE234A6C8A00953D53 /* UserActionsProtocol.swift in Sources */,
+				C9F77D0E234A7F0D00953D53 /* NotLoggedInProfile.swift in Sources */,
+				C9F77D04234A70E900953D53 /* LoginUser.swift in Sources */,
+				C9F77D00234A701000953D53 /* User.swift in Sources */,
+				C9F77D07234A723C00953D53 /* UserActions.swift in Sources */,
+				C9DE1E5C234A675F008B0FA2 /* Home.swift in Sources */,
 				C90E4DBB2347D7710034F33E /* SceneDelegate.swift in Sources */,
-				C90E4DBD2347D7710034F33E /* ContentView.swift in Sources */,
+				C9F77D0C234A7EDB00953D53 /* LoggedInProfile.swift in Sources */,
+				C9F77CFC234A6B8B00953D53 /* TestData.swift in Sources */,
+				C9F77D02234A70A500953D53 /* Gender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
